@@ -11,7 +11,7 @@ public class RoomDAOImpl implements RoomDAO {
 
     private static final String URL = "jdbc:mysql://localhost:3306/hotel_db";
     private static final String USER = "root";
-    private static final String PASS = "ver_so@exp00";
+    private static final String PASS = "your_password";
 
     @Override
     public void addRoom(RoomDTO room) {
